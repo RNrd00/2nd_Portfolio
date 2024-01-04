@@ -23,3 +23,8 @@
     font-size: 40px;
     margin-left: 20px;
 }
+
+.disable-font {
+    text-align: center;
+    font-size: 50px;
+}
