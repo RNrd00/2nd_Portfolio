@@ -13,7 +13,13 @@ const callback = function(entries, observer) {
     });
 }
 
-const ot = new IntersectionObserver(callback);
+const options = {
+    root:null,
+    rootMargin:"-100px 0px 0px 0px",
+    threshold:[0,0.5,1]
+};
+
+const ot = new IntersectionObserver(callback,options);
 
 disableFont.addEventListener("click", () => {
     disableFont.remove();
