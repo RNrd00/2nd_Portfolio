@@ -31,5 +31,3 @@ for(let i = 0; i < contentNumber.length; i++) {
 }
 
 ot.observe(observerTest);
-
-//https://qiita.com/greencha/items/ee49e2acd885eddc5570 ←ここを参照中
